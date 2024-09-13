@@ -1,0 +1,423 @@
+::ng-deep .pac-container {
+    z-index: 10000 !important;
+}
+
+.deliver-here {
+    padding-top: 20px;
+    width: 80%;
+    margin-left: 50px;
+
+    // .modal { z-index: 1001 !important;}
+    // .modal-backdrop {z-index: 1000 !important;}
+    .pac-container {
+        z-index: 1055 !important;
+    }
+
+    .modal-header,
+    .modal-body {
+        background-color: white;
+    }
+
+    tbody {
+        background-color: white;
+    }
+
+    .news-text {
+        height: 150px;
+    }
+}
+
+.modal-address {
+    width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    background: var(--white);
+}
+
+.border {
+    border: 3px solid #07ad3e !important;
+}
+
+
+@media (min-width: 320px)and (max-width: 768px) {
+    .checkout {
+        width: 320px;
+        margin-left: 5px;
+        margin-right: 3px;
+    }
+}
+
+@media (min-width: 320px)and (max-width: 400px) {
+    .modal-content {
+        width: 300px;
+        margin-left: 10px;
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 375px)and (max-width: 400px) {
+    .modal-content {
+        width: 350px;
+        margin-left: 15px;
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 320px)and(max-width: 400px) {
+    .modal-address {
+        width: 300px;
+    }
+}
+
+@media (min-width: 375px)and(max-width: 425px) {
+    .modal-address {
+        width: 350px;
+    }
+}
+
+@media (min-width: 320px) {
+    .modal-view {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .view-image {
+        width: 260px;
+        height: 270px;
+    }
+}
+
+@media (min-width: 375px) {
+    .modal-view {
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .view-image {
+        width: 300px;
+        height: 270px;
+    }
+}
+
+@media(min-width: 768px) {
+    .modal-view {
+        width: 700px;
+        margin-left: 10px;
+    }
+
+    .view-image {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+
+    .modal-view {
+        width: 900px;
+        margin-top: 40px;
+    }
+
+    .view-image {
+        width: 450px;
+        margin-top: 5px;
+        height: 400px;
+    }
+}
+
+.address {
+    height: 140px;
+}
+
+// .modal-view {
+//     width: 900px;
+//     margin-top: 40px;
+// }
+// .view-image {
+//     width: 450px;
+//     margin-top: 5px;
+//     height: 400px;
+// }
+.image-pic {
+    width: 110px;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.btn-size {
+    width: 50px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.modal-change {
+    width: 30px;
+    height: 25px;
+}
+
+.bttn-bttn {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    line-height: 15px;
+}
+
+// .modal-size {
+//     height: 150px;
+// }
+.mdl-mdl {
+    width: 400px;
+    height: 200px;
+}
+
+.form-control {
+    width: 100%;
+    height: 37px;
+    border-radius: 6px;
+    padding: 0px 20px 2px;
+    // color: var(--text);
+    // background: var(--chalk);
+    // border: 1px solid var(--border);
+}
+
+@media(min-width:320px)and(max-width:1176px) {
+    .modal-size {
+        width: 100%;
+        // height: 37px;
+        margin-left: 2px;
+        margin-top: 8px;
+    }
+}
+
+.address {
+    font-size: small;
+}
+
+// .form-shop {
+//     width: 40%;
+//     height: 35px;
+//     font-size: 14px;
+//     font-weight: 400;
+//     line-height: 35px;
+//     margin-left: 100px;
+//     margin-top: 25px;
+//     border-radius: 6px;
+//     letter-spacing: 0.5px;
+//     text-align: center;
+//     color: var(--white);
+//     background: var(--primary);
+// }
+// .shop{
+//     width: 40%;
+//     height: 35px;
+//     font-size: 14px;
+//     font-weight: 400;
+//     margin-top: 25px;
+//     line-height: 35px;
+//     border-radius: 6px;
+//     letter-spacing: 0.5px;
+//     text-align: center;
+//     color: var(--white);
+//     background: var(--primary);
+//     // background-color: rgb(199, 28, 28);
+//    }
+
+@media(min-width:320px)and(max-width:768px) {
+
+    .account-card {
+        width: 115%
+    }
+
+    .shop {
+        width: 30%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 120px;
+        margin-top: 25px;
+        line-height: 35px;
+        border-radius: 6px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: var(--white);
+        color: var(--white);
+        background-color: rgb(15, 165, 15);
+
+    }
+}
+
+
+@media (min-width:425px) {
+
+
+    .account-card {
+        width: 133%
+    }
+
+    .shop {
+        width: 37%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 120px;
+        margin-top: 25px;
+        line-height: 35px;
+        border-radius: 6px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: var(--white);
+        color: var(--white);
+        background-color: rgb(15, 165, 15);
+
+    }
+
+}
+
+
+@media (min-width:768px) {
+
+
+    .account-card {
+        width: 245%
+    }
+
+    .shop {
+        width: 37%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 238px;
+        margin-top: 25px;
+        line-height: 35px;
+        border-radius: 6px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: var(--white);
+        color: var(--white);
+        background-color: rgb(15, 165, 15);
+
+    }
+
+}
+
+@media(min-width:1024px) {
+
+    .account-card {
+        width: 100%;
+    }
+
+    .shop {
+        width: 19%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 456px;
+        margin-top: 25px;
+        line-height: 35px;
+        border-radius: 6px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: var(--white);
+        color: var(--white);
+        background-color: rgba(31, 155, 31, 0.822);
+
+    }
+
+}
+
+@media(min-width: 1440px) {
+
+    .account-card {
+        width: 100%;
+    }
+
+    .shop {
+        width: 19%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 510px;
+        margin-top: 25px;
+        line-height: 35px;
+        border-radius: 6px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: var(--white);
+        color: var(--white);
+        background-color: rgb(12, 116, 12);
+
+    }
+
+}
+
+@media(min-width: 320px)and(max-width: 768px) {
+    .mdl-mdl {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 320px)and(max-width: 768px) {
+    .modalClose {
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 320px)and(max-width: 768px) {
+    .modal-close {
+        right: 6%;
+        top: -16px;
+        transform: translateX(50%);
+        margin-right: 6px;
+    }
+}
+
+::ng-deep .ng-select.is-invalid .ng-select-container {
+    border-color: #ea5455 !important;
+    padding-right: calc(1.45em + 0.876rem) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23ea5455' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23ea5455' stroke='none'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right calc(0.3625em + 0.219rem) center !important;
+    background-size: calc(0.725em + 0.438rem) calc(0.725em + 0.438rem) !important;
+}
+
+
+@media (max-width: 1100px) {
+    .modal-close {
+        right: 50%;
+        top: -20px;
+        transform: translateX(50%);
+    }
+}
+
+@media (max-width: 1100px) {
+    .modal-close {
+        right: 50%;
+        top: -20px;
+        transform: translateX(50%);
+    }
+}
+
+@media (max-width: 400px) {
+
+    .modal-form,
+    .modal-dialog {
+        width: 98%;
+        max-width: inherit;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .modal-address {
+        width: 337px;
+        
+    }
+}
+
+@media (min-width:425px)and(max-width:768px) {
+
+    .modal-address {
+        width: 402px;
+    }
+}

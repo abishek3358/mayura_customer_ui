@@ -1,0 +1,35 @@
+tbody {
+  background-color: white;
+}
+
+.news-text {
+  height: 150px;
+}
+
+.last {
+  height: 309px;
+}
+
+@media(min-width:768px)and(max-width:320px) {
+  .card-size {
+    border-radius: 10px;
+    width: 335px;
+    margin-left: 20px;
+    margin-top: 55px;
+    margin-right: 1px;
+  }
+}
+
+.modal-dialog {
+  max-width: 100%;
+  margin: 0;
+}
+
+.modal-content {
+  height: 100%;
+  border: 0;
+}
+
+.modal-body {
+  height: 100%;
+}

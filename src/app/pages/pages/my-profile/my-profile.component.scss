@@ -1,0 +1,308 @@
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.address {
+    font-size: small;
+    height: 140px;
+}
+
+.form-row>.col,
+.form-row>[class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.modal-body {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: auto 0;
+    flex-grow: 0;
+    width: auto;
+}
+
+.modal-body {
+    &:focus {
+        outline: none;
+    }
+}
+
+::ng-deep .pac-container {
+    z-index: 10000 !important;
+}
+
+.modal .header {
+    position: relative;
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+    width: 96% !important;
+}
+
+.modal-content {
+    border: none;
+    background: none;
+    border-radius: 0px;
+    width: 100% !important;
+}
+
+.modal-content .modal-close {
+    position: absolute;
+    top: -20px;
+    left: 37%;
+}
+
+.modal_form {
+    padding: 30px;
+    margin: 5px;
+    border-radius: 6px;
+    background: var(--white);
+}
+
+@media (min-width:768px) {
+    .modal_form {
+        width: 500px;
+    }
+    .modal-content .modal-close {
+        position: absolute;
+        top: -20px;
+        left: 42%;
+    }
+}
+
+.addressAdd {
+    width: 122px;
+    height: 36px;
+}
+
+@media (min-width: 320px)and(max-width: 768px) {
+    .modal-close {
+        right: 6%;
+        top: -17px;
+        transform: translateX(50%);
+    }
+}
+
+@media (min-width: 320px)and(max-width: 768px) {
+    .modalClose {
+        margin-right: 500px;
+    }
+}
+
+// @media (max-width: 1100px) {
+//     .img {
+//         margin-left: 30px;
+//     }
+// }
+
+.delete {
+    width: 10px;
+    height: 10px;
+}
+
+.profile-card {
+    // margin-top: 20px;
+    padding: 15px;
+}
+
+.btn-size {
+    width: 50px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.deleteButton {
+    margin-top: 30px
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:992px) {
+    .img a{
+        margin-top: 18px;
+    }
+}
+
+.img-edit {
+    width: 70px;
+    height: 60px;
+}
+
+.bttn-bttn {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    line-height: 15px;
+}
+
+.mdl-mdl {
+    width: 400px;
+    height: 200px;
+}
+
+@media(min-width: 320px)and(max-width: 768px) {
+    .mdl-mdl {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.inner-addon .fa,
+.inner-addon .fas {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.right-addon .fa,
+.right-addon .fas {
+    right: 0px;
+}
+
+.left-addon input {
+    padding-left: 30px;
+}
+
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+
+#mobileNo {
+    width: 100%;
+    height: 37px;
+    border-radius: 6px;
+    padding: 0px 20px 2px;
+    display: flex;
+}
+
+#add-new-address {
+    width: 100%;
+    height: 37px;
+    border-radius: 6px;
+    padding: 0px 20px 2px;
+    display: flex;
+}
+
+.form-button {
+
+    margin-top: 33px !important;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.form-button {
+    margin-top: 33px !important;
+}
+
+.address {
+    height: 140px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+@media(min-width: 320px)and(max-width: 768px) {
+    .modal-close {
+        margin-right: 135px;
+    }
+}
+
+// .addressAdd {
+//     width: 122px;
+//     height: 36px;
+// }
+// .container{
+//     max-width:100%;
+//     overflow-x:hidden;
+// }
+.form-shop {
+    width: 40%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: var(--white);
+    background: var(--primary);
+}
+
+@media(min-width: 320px)and(max-width: 768px) {
+    .form-shop {
+        width: 40%;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 35px;
+        margin-left: 80px;
+        margin-top: 25px;
+        border-radius: 6px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: var(--white);
+        background: var(--primary);
+    }
+}
+
+.shop {
+    width: 40%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 35px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: var(--white);
+    background: var(--primary);
+    background-color: rgb(199, 28, 28);
+}
+
+::ng-deep .ng-select.is-invalid .ng-select-container {
+    border-color: #ea5455 !important;
+    padding-right: calc(1.45em + 0.876rem) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23ea5455' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23ea5455' stroke='none'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right calc(0.3625em + 0.219rem) center !important;
+    background-size: calc(0.725em + 0.438rem) calc(0.725em + 0.438rem) !important;
+}
+@media (max-width: 1024px) {
+
+    .modal-dialog {
+      margin:9px auto -38px !important;
+      margin-top: 24px;
+      margin-right: auto;
+      margin-bottom: 64px;
+      margin-left: auto;
+    }
+  }

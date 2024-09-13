@@ -1,0 +1,145 @@
+.inner-section{
+    margin-bottom: 0px !important;
+}
+
+.product-card {
+    height: 350px !important;
+    max-height: 350px !important;
+}
+
+.product-media {
+    width: 100% !important;
+    height: 55%;
+}
+
+.product-image {
+    height: 100%;
+    width: 100%;
+}
+
+.product-add {
+    cursor: pointer;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    background: center;
+}
+
+.star-size {
+    width: 50px;
+}
+
+.star {
+    font-size: 25px;
+
+}
+
+.noData {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 150px;
+    margin-left: 35%;
+    padding: 25px;
+}
+
+.breadcrumb-res {
+    margin-left: 0px !important;
+}
+
+.breadcrumb-res .breadcrumb-item {
+    font-size: 16px !important;
+}
+
+@media (min-width:768px) {
+    .breadcrumb-res .breadcrumb-item {
+        font-size: 18px !important;
+    }
+}
+
+@media(min-width:320px)and(max-width:1176px) {
+    .noData {
+        font-size: 12px;
+        margin-top: -9px;
+        margin-bottom: 14px;
+        padding-left: 1px;
+    }
+
+    @media(min-width:320px)and(max-width:1176px) {
+        .img {
+            display: flex;
+            width: 130px;
+        }
+
+    }
+
+}
+
+@media(min-width:320px)and(max-width:1176px) {
+    .input-size {
+        padding-left: 0px;
+    }
+
+    .star-size {
+        padding-left: 0px;
+
+    }
+
+    .count-size {
+        padding-left: 50px;
+
+    }
+}
+
+.product-Name {
+    text-align: center;
+    justify-content: center;
+    height: 40px
+}
+
+.search {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.shop-widget-list li {
+    width: 200px;
+}
+
+.count-size {
+    padding-left: 20px;
+}
+
+@media (min-width:1024px) {
+    .shop-widget-list li {
+        width: 180px;
+    }
+
+    .count-size {
+        padding-left: 10px;
+    }
+}
+
+@media (min-width:1440px) {
+    .shop-widget-list li {
+        width: 200px;
+    }
+
+    .count-size {
+        padding-left: 20px;
+    }
+}
+
+.star {
+    color: #ccc;
+    /* Default star color */
+}
+
+.active {
+    color: #ffcc00;
+    /* Selected star color */
+}
+li{
+    cursor: pointer;
+}
